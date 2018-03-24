@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>using of strtotime</title>
+</head>
+<body>
+<?php
+   $d=strtotime("tomorrow");
+echo date("Y-m-d", $d) . "<br />";
+$d=strtotime("Last Monday");
+echo date("Y-m-d", $d);
+?>
+</body>
+</html>
